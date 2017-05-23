@@ -13,7 +13,7 @@ And in order to prevent resale and enrichment at the expense of our work, I deci
 ### Instructions
 1. Clone this repository into your server's `resources` directory.
 ```bash
-git clone https://github.com/StrixG/driftparadise-old.git [dp]
+git clone https://github.com/StrixG/driftparadise-legacy.git [dp]
 ```
 2. Install MySQL server and enter your credentials in `[core]/dpCore/server/database/DatabaseConfig.lua` (you will need to create this file from DatabaseConfig.lua.sample)
 Change *host, port, dbName, username* and *password* to desired values according to your MySQL installation.
@@ -45,7 +45,7 @@ restart dpStartup
 ### Инструкция по запуску
 1. Склонируйте этот репозиторий в папку `resources` вашего сервера:
 ```bash
-git clone https://github.com/StrixG/driftparadise-old.git [dp]
+git clone https://github.com/StrixG/driftparadise-legacy.git [dp]
 ```
 2. Установите MySQL сервер и укажите данные для подключения к нему в файле `[core]/dpCore/server/database/DatabaseConfig.lua` (этот файл потребуется создать из DatabaseConfig.lua.sample)
 Измените значения полей *host, port, dbName, username* and *password* на необходимые вам.
