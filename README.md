@@ -1,9 +1,11 @@
 # Drift Paradise
+## English
 Drift Paradise is the racing gamemode for [Multi Theft Auto: San Andreas](https://mtasa.com). This repository contains source code of its old version (December 20, 2016).
 
 Currently maintained by Yakov Starkov [here](https://vk.com/driftparadise).
 
-## English
+FAQ: https://github.com/StrixG/driftparadise-legacy/wiki
+
 ### Introduction
 Hello everyone. My name is Nikita and I was one of the developers of the Drift Paradise until December 20, 2016.
 
@@ -36,13 +38,17 @@ restart dpStartup
 ```
 
 ## Русский
+Drift Paradise это гоночный игровой режим для [Multi Theft Auto: San Andreas](https://mtasa.com). Этот репозиторий содержит исходный код его старой версии (20 декабря 2016 года).
+
+На данный момент поддерживает Яковом Старковым [здесь](https://vk.com/driftparadise).
+
+Инструкции и ответы на ваши **вопросы**: https://github.com/StrixG/driftparadise-legacy/wiki
+
 ### Введение
 Всем привет. Меня зовут Никита и я был одним из разработчиков Drift Paradise до 20 декабря 2016 года.
 
 Как вы уже знаете, код этого проекта утёк в сеть несколько месяцев назад и пошёл по рукам.
 Чтобы предотвратить перепродажу и обогащение за счёт чужого труда, я решил открыть исходный код.
-
-Инструкции и ответы на ваши вопросы: https://github.com/StrixG/driftparadise-legacy/wiki
 
 ### Инструкция по запуску
 1. Склонируйте этот репозиторий в папку `resources` вашего сервера:
