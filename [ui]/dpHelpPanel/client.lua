@@ -18,13 +18,17 @@ local tabs = {
         text = "help_panel_garage_text"
     },
     {
+        name = "help_panel_races_title",
+        text = "help_panel_races_text"
+    },
+    {
         name = "help_panel_more_title",
         text = "help_panel_more_text"
     },
     {
         name = "help_panel_devs_title",
         text = "help_panel_devs_text"
-    } 
+    }
 }
 
 local function showTab(index)
@@ -107,7 +111,7 @@ addEventHandler("onClientResourceStart", resourceRoot, function ()
         alignY = "top",
         wordBreak = true
     })
-    UI:addChild(ui.panel, ui.textLabel)     
+    UI:addChild(ui.panel, ui.textLabel)
 
     UI:setVisible(ui.panel, false)
 
@@ -136,7 +140,7 @@ addEventHandler("dpUI.click", resourceRoot, function (widget)
             exports.dpSounds:playSound("ui_select.wav")
             return
         end
-    end 
+    end
 end)
 
 function setVisible(visible)
