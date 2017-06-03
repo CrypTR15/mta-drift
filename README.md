@@ -40,7 +40,7 @@ restart dpStartup
 ## Русский
 Drift Paradise это гоночный игровой режим для [Multi Theft Auto: San Andreas](https://mtasa.com). Этот репозиторий содержит исходный код его старой версии (20 декабря 2016 года).
 
-На данный момент поддерживает Яковом Старковым [здесь](https://vk.com/driftparadise).
+На данный момент поддерживается Яковом Старковым [здесь](https://vk.com/driftparadise).
 
 Инструкции и ответы на ваши **вопросы**: https://github.com/StrixG/driftparadise-legacy/wiki
 
