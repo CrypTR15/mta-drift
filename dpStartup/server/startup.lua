@@ -67,7 +67,6 @@ local startupResources = {
 	-- World
 	"MAPPING",
 	"TD-INT",
-	"TD-CARSHOP",
 	"TD-MAPFILES",
 	"TD-RACEMAPS",
 	"TD-CHRISTMASS",
@@ -90,7 +89,7 @@ local startupResources = {
 	"shader_dynamic_sky",
 	"snowmod",
 	"fara",
-	"svet",	
+	"svet",
 
 	-- Non-important assets
 	"dpCarParts",
