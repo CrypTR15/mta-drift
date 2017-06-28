@@ -42,7 +42,7 @@ Drift Paradise это гоночный игровой режим для [Multi T
 
 На данный момент поддерживается Яковом Старковым [здесь](https://vk.com/driftparadise).
 
-Инструкции и ответы на ваши **вопросы**: https://github.com/StrixG/driftparadise-legacy/wiki
+Инструкции и ответы на ваши **вопросы** (про карты и гараж тоже): https://github.com/StrixG/driftparadise-legacy/wiki
 
 ### Введение
 Всем привет. Меня зовут Никита и я был одним из разработчиков Drift Paradise до 20 декабря 2016 года.
