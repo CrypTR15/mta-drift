@@ -26,6 +26,7 @@ local startupResources = {
 	"dpMarkers",
 	"dpCore",
 	"dpPathGenerator",
+	"dpRaceManager",
 
 	-- UI
 	"dpUI",
@@ -63,6 +64,7 @@ local startupResources = {
 	"dpSkinSelect",
 	"dpTofu",
 	"dpIntro",
+	"dpRaceLobby",
 
 	-- World
 	"MAPPING",
