@@ -5,19 +5,20 @@ local offset = 1
 local showCount = 6
 
 local teleports = {
-    { "Winter Rally Race Track",  "winter_rally_race_track" },
-    { "Bihoku",             "bihoku" },
-    { "Honjo Circuit",      "honjo_circuit" },
-    { "Hero Shinoi",        "hero_shinoi" },
-    { "Gateway International Raceway", "gateway_raceway" },
-    { "Galdori",            "galdori"},
-    { "GoKart ver.2",       "gokart2" },
-    { "Mazda Raceway",      "mazda_raceway" },
-    { "Ebisu West",         "ebisu_west" },
-    { "Mikawa",             "mikawa" },
-    { "Project Touge",      "project_touge" },
+    { "Hakone Nanamagari",  "hakone" },
     { "YZ Circuit",         "yz_circuit" },
-    { "Unost",              "unost" },
+    { "Suzuka Circuit",     "suzuka_circuit" },
+    { "Sekia",              "sekia" },
+    { "Project Touge",      "project_touge" },
+    { "Mikawa",             "mikawa" },
+    { "Mazda Raceway",      "mazda_raceway" },
+    { "Hero Shinoi",        "hero_shinoi" },
+    { "Honjo Circuit",      "honjo_circuit" },
+    { "Gateway International Raceway", "gateway_raceway" },
+    { "GoKart ver.2",       "gokart2" },
+    { "Ebisu West",         "ebisu_west" },
+    { "Ebisu Minami",       "ebisu_minami" },
+    { "Bihoku",             "bihoku" },
 }
 
 function TeleportTab.create()
@@ -26,9 +27,9 @@ function TeleportTab.create()
     local height = UI:getHeight(panel)
 
     local teleportsList = UI:createDpList {
-        x      = 0, 
+        x      = 0,
         y      = height / 2 - 45 * 3.5,
-        width  = width, 
+        width  = width,
         height = 45 * 7,
         items  = {},
         columns = {
@@ -37,7 +38,7 @@ function TeleportTab.create()
             { size = 0.15, offset = 0.03, align = "left"  },
         }
     }
-    UI:addChild(panel, teleportsList)   
+    UI:addChild(panel, teleportsList)
 
     list = teleportsList
 end
